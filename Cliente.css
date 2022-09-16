@@ -1,3 +1,4 @@
+/*CSS Breno*/
 .body{
     background-color: #F0E3CE;
     margin: 0,auto;
@@ -25,4 +26,36 @@ footer{
     background-color: #E1B587;
     height: 40px;
     width: 80%;
+}
+.container h3{
+    color: black;
+}
+
+
+/*CSS Gabriel*/
+
+header .cabecalho{
+
+    background-color: #EBAB69;
+
+}
+
+header .logo{
+
+    padding: 1vh;
+
+}
+header .cont{
+
+    padding: 1vh;
+
+}
+
+
+body .A_branc_laran{
+
+    padding-top: 5vh;
+    max-width: 50vh;
+    max-height: 60vh;
+
 }
