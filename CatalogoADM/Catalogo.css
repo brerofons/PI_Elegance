@@ -64,6 +64,28 @@ header .carrinho{
     height: 40px;
     width: 80%;
 }
+main .fundoAd{
+    width: 100%;
+    border: 5px solid #454545;
+    background-color: #E1B587;
+}
+.insIm{
+    background-color: gray;
+    height: 170px;
+    width: 300px;
+}
+.botG{
+    background-color: greenyellow;
+    height: 50px;
+    width: 200px;
+    font-size: 1.4rem;
+}
+.botR{
+    background-color: red;
+    height: 50px;
+    width: 200px;
+    font-size: 1.4rem;
+}
 /* -=-=-| Fim Conteudo |-=-=- */
 /* -=-=-| Inicio Rodapé |-=-=- */
 .rodape{
