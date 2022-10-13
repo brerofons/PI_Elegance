@@ -4,8 +4,10 @@ html, body{
 body{
     display: flex;
     flex-direction: column;
-    background-color: #F0E3CE;
     margin: 0,auto;
+}
+.cor{
+    background-color: #F0E3CE;
 }
 /* -=-=-| Inicio Cabeçalho |-=-=- */
 

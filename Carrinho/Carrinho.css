@@ -4,8 +4,10 @@ html, body{
 body{
     display: flex;
     flex-direction: column;
-    background-color: #F0E3CE;
     margin: 0,auto;
+}
+.cor{
+    background-color: #F0E3CE;
 }
 /* -=-=-| Inicio Cabeçalho |-=-=- */
 
@@ -49,6 +51,10 @@ header .carrinho{
 .conteudo{
     flex: 1 0 auto;
 }
+.icone{
+    width: 25px;
+    height: 25px;
+}
 .img{
     height: 300px;
     width: 100%;
@@ -63,6 +69,13 @@ header .carrinho{
     background-color: #E1B587;
     height: 40px;
     width: 80%;
+}
+.caixa{
+    background-color: white;
+    border: black solid 3px;
+}
+.pad{
+    padding-top: 10px;
 }
 /* -=-=-| Fim Conteudo |-=-=- */
 /* -=-=-| Inicio Rodapé |-=-=- */

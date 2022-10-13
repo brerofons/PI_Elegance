@@ -4,8 +4,10 @@ html, body{
 body{
     display: flex;
     flex-direction: column;
-    background-color: #F0E3CE;
     margin: 0,auto;
+}
+.cor{
+    background-color: #F0E3CE;
 }
 /* -=-=-| Inicio Cabeçalho |-=-=- */
 
@@ -49,9 +51,15 @@ header .carrinho{
     width: 500px;
 }
 .caixa{
+    background-color: white;
     border: solid 5px black;
 }
-
+.botG{
+    background-color: greenyellow;
+}
+.botR{
+    background-color: red;
+}
 /* -=-=-| Fim Cabeçalho |-=-=- */
 /* -=-=-| Inicio Conteudo |-=-=- */
 .conteudo{
