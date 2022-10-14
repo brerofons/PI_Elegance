@@ -53,6 +53,7 @@ header .carrinho{
 .caixa{
     background-color: white;
     border: solid 5px black;
+    border-radius: 15px;
 }
 .botG{
     background-color: greenyellow;
