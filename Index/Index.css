@@ -7,7 +7,7 @@ body{
     margin: 0,auto;
 }
 .cor{
-    background-color: #F0E3CE;
+    background-color: #ffffff;
 }
 /* -=-=-| Inicio Cabeçalho |-=-=- */
 
@@ -29,7 +29,9 @@ header .logo{
 header .texto{
     padding-top: 20px ;
     color: white;
+ 
 }
+
 header .carrinho{
     transition: all 0.5s;
     cursor: pointer;
@@ -37,22 +39,24 @@ header .carrinho{
 .carrinho:hover{
     -webkit-transform: scale(1.0);
     transform: scale(1.1);
+
 }
-.icon{
-    width: 30px;
-    height: 30px;
-}
-hr{
-    height: 4px;
-    background-color: white;
-    border: none;
-    padding-top: 4px;
-}
+
 /* -=-=-| Fim Cabeçalho |-=-=- */
 /* -=-=-| Inicio Conteudo |-=-=- */
 .conteudo{
     flex: 1 0 auto;
 }
+
+/* -=-=- | Inicio Carrosel | -=-=- */
+
+.carrosel {
+
+    padding-top: 50px;
+
+}
+
+/* -=-=- | Fim Carrosel | -=-=- */
 .img{
     height: 300px;
     width: 100%;
@@ -64,8 +68,17 @@ hr{
     border: black,1px;
 }
 .bane1{
-    background-color: #E1B587;
-    
+    background-color: #EBAB69;
+    height: 40px;
+    width: 80%;
+    border-radius: 50px;
+    color: #ffffff;
+}
+hr{
+    height: 4px;
+    background-color: white;
+    border: none;
+    padding-top: 4px;
 }
 /* -=-=-| Fim Conteudo |-=-=- */
 /* -=-=-| Inicio Rodapé |-=-=- */

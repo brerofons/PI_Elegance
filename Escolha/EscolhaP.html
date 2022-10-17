@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-sm-12 col-md-7">
                     <div class="row">
-                        <div class="col">
+                        <div class="col ">
                             <h1>Sandalia salto alto</h1>
                         </div>
                     </div>
@@ -45,50 +45,57 @@
                             <h4>5 Estrelas</h4>
                         </div>
                     </div>
-        
+
+
+
+
+
+
                     <div class="row pt-4">
-                        <div>
-                            <form action="escolha.php" method="get">
-                                <h3>Cores:</h3>
+                        <div class="col">
+                        <form action="carrinho.php" method="get">
+                            <legend>Cores</legend>
+                            <fieldset>
+                                <input type="radio" name="cor" id="azul" value="azul" required placeholder="Enter Name"
+                                oninvalid="this.setCustomValidity('Selecione uma cor')"
+                                oninput="this.setCustomValidity('')" />
 
-                                <input type = "radio" name = "radio" value = "azul" class="cor">
-                                <Label for = "azul">Azul</Label>  <span class="checkmark"></span>
-                                <input type = "radio" name = "radio" value = "laranja" class="cor">
-                                <Label for = "azul">Laranja</Label>  <span class="checkmark"></span>
+                                <label for="azul">Azul</label>
 
-                            </form>
-                        </div>
-                        <div class="row pt-4">
-                            <div class="col">
-                                <h3>Tamanho</h3>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 col-md-1">
-                                <input type="number" name="" id="">
-                            </div>
-                        </div>
-                        <div class="row pt-4">
-                            <div class="col">
-                                <h3>Quantidade</h3>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 col-md-6">
-                                <div class="row">
-                                    <div class="col-sm-4 col-md-1">
-                                        <button class="d-flex justify-content-center">+</button>
-                                    </div>
-                                    <div class="col-sm-4 col-md-1">
-                                        <p class="d-flex justify-content-center">1</p>
-                                    </div>
-                                    <div class="col-sm-4 col-md-1">
-                                        <button class="d-flex justify-content-center">-</button>
-                                    </div>
-                                </div>
-                            </div>
+                                <input type="radio" name="cor" id="laranja" value="laranja" required placeholder="Enter Name"
+                                oninvalid="this.setCustomValidity('Selecione uma cor')"
+                                oninput="this.setCustomValidity('')" />
+                                <label for="laranja">laranja</label>
+                            </fieldset>
+
+                            <legend>Tamanho</legend>
+                            <fieldset>
+                                <input type="radio" name="tamanho" id="42" value="42" required placeholder="Enter Name"
+                                oninvalid="this.setCustomValidity('Selecione um tamanho')"
+                                oninput="this.setCustomValidity('')" />
+                                <label for="42">42</label>
+
+                                <input type="radio" name="tamanho" id="44" value="44" required placeholder="Enter Name"
+                                oninvalid="this.setCustomValidity('Selecione um tamanho')"
+                                oninput="this.setCustomValidity('')" />
+                                <label for="44">44</label>
+                            </fieldset>
+                            
+
+                        <input type="submit" value="oi">
+                    </form>
+                            
+
+
+                         
                         </div>
                     </div>
+
+
+
+
+
+
                 </div>
             </div>
             <div class="row">
