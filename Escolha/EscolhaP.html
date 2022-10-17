@@ -21,7 +21,7 @@
                 <div class="col d-flex justify-content-between">
                     <a href="../Index/Index.html"> <img src="../imagens/img-cabecalho/Ellipse 2.png" class="logo" alt="Logo da Empresa"></a>
                     <h4 style="color: white ; padding-top: 3vh;" >Compras Feitas Pelo Whatsapp</h4> 
-                    <a href="carrinho.html"> <img src="../imagens/img-cabecalho/carrimho.png" class="logo" alt="Carrinho de Compras"></a>
+                    <a href="../Carrinho/carrinho.html"> <img src="../imagens/img-cabecalho/carrimho.png" class="logo" alt="Carrinho de Compras"></a>
                 </div>
             </div>
         </div>
@@ -45,19 +45,18 @@
                             <h4>5 Estrelas</h4>
                         </div>
                     </div>
+        
                     <div class="row pt-4">
-                        <div class="col">
-                            <h3>Cores:</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-1">
-                            <h6>Azul</h6>
-                            <input type="checkbox" name="Azul" id="">
-                        </div>
-                        <div class="col-sm-12 col-md-1">
-                            <h6>Laranja</h6>
-                            <input type="checkbox" name="Laranja" id="">
+                        <div>
+                            <form action="escolha.php" method="get">
+                                <h3>Cores:</h3>
+
+                                <input type = "radio" name = "radio" value = "azul" class="cor">
+                                <Label for = "azul">Azul</Label>  <span class="checkmark"></span>
+                                <input type = "radio" name = "radio" value = "laranja" class="cor">
+                                <Label for = "azul">Laranja</Label>  <span class="checkmark"></span>
+
+                            </form>
                         </div>
                         <div class="row pt-4">
                             <div class="col">

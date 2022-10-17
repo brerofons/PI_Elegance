@@ -77,18 +77,15 @@ main .fundoAd{
     width: 300px;
 }
 .botG{
-    border-radius: 10%;
-    text-align: center;
-    background-color: #e6e600;
+    background-color: greenyellow;
     height: 50px;
-    width: 200px;
+    width: 100px;
     font-size: 1.4rem;
 }
 .botR{
-    border-radius: 10%;
     background-color: red;
     height: 50px;
-    width: 200px;
+    width: 100px;
     font-size: 1.4rem;
 }
 /* -=-=-| Fim Conteudo |-=-=- */

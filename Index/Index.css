@@ -29,12 +29,6 @@ header .logo{
 header .texto{
     padding-top: 20px ;
     color: white;
-    transition: all 0.5s;
-    cursor: pointer; 
-}
-.texto:hover{
-    -webkit-transform: scale(1.0);
-    transform: scale(1.1);
 }
 header .carrinho{
     transition: all 0.5s;
@@ -43,9 +37,17 @@ header .carrinho{
 .carrinho:hover{
     -webkit-transform: scale(1.0);
     transform: scale(1.1);
-
 }
-
+.icon{
+    width: 30px;
+    height: 30px;
+}
+hr{
+    height: 4px;
+    background-color: white;
+    border: none;
+    padding-top: 4px;
+}
 /* -=-=-| Fim Cabeçalho |-=-=- */
 /* -=-=-| Inicio Conteudo |-=-=- */
 .conteudo{
@@ -63,8 +65,7 @@ header .carrinho{
 }
 .bane1{
     background-color: #E1B587;
-    height: 40px;
-    width: 80%;
+    
 }
 /* -=-=-| Fim Conteudo |-=-=- */
 /* -=-=-| Inicio Rodapé |-=-=- */

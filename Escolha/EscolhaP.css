@@ -46,6 +46,35 @@ header .carrinho{
 
 }
 
+/* -=-=- | INICIO PHP | -=-=- */
+
+input .cor {
+
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .checkmark {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: blue;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .cor:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .cor input:checked ~ .checkmark {
+    background-color: gray;
+    border-radius: 50px;
+  }
+
+/* -=-=- | FIM PHP \ -=-=- */  
+
 /* -=-=-| Fim Cabeçalho |-=-=- */
 /* -=-=-| Inicio Conteudo |-=-=- */
 .conteudo{
