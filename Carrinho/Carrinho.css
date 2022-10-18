@@ -7,7 +7,7 @@ body{
     margin: 0,auto;
 }
 .cor{
-    background-color: #F0E3CE;
+    background-color: #ffffff;
 }
 /* -=-=-| Inicio Cabeçalho |-=-=- */
 
@@ -88,5 +88,11 @@ header .carrinho{
 .icon{
     width: 40px;
     height: 40px;
+}
+hr{
+    height: 4px;
+    background-color: white;
+    border: none;
+    padding-top: 4px;
 }
 /* -=-=-| Fim Rodapé |-=-=- */
