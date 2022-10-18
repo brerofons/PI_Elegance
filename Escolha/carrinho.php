@@ -1,13 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <?php 
-    ?>
-</body>
+<html>
+    <head>
+        <!-- -=-=-| HTML |-=-=- -->
+        <meta charset="UTF-8">
+        <meta name="description" content="Elegance">
+        <meta name="keywords" content="Sapatos, Anabela, Tamanco,">
+        <meta name="author" content="Gabriel Martins, Breno Rodrigues">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- -=-=-| LINKS |-=-=- -->
+        <link rel="stylesheet" href="EscolhaP.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+        <title>Carrinho</title>
+    </head>
+    <body class="cor">
+        <!--Cabeçalho Inicio-->
+    <header>
+        <div class="container-fluid cabecalho">
+            <div class="row cont">
+                <div class="col d-flex justify-content-between">
+                    <a href="../Index/Index.html"> <img src="../imagens/img-cabecalho/Ellipse 2.png" class="logo" alt="Logo da Empresa"></a>
+                    <h4 style="color: white ; padding-top: 3vh;" >Compras Feitas Pelo Whatsapp</h4> 
+                    <a href="carrinho.html"> <img src="../imagens/img-cabecalho/carrimho.png" class="logo" alt="Carrinho de Compras"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Cabeçalho Fim-->
+    <!--Produtos inicio-->
+    <main class="conteudo">
+        <div class="container">
+            <div class="caixa">
+                <div class="row ">
+                    <h2 class="d-flex justify-content-center">Carrinho de Compras</h2>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <input type="checkbox" class="todosp" name="todosp" checked>
+                        <label for="todosp">Todos os produtos</label>
+                    </div>
+                    <div class="col-8"></div>
+                </div>
+            </div>
+            <div class="pad"></div>
+            <div class="caixa pt-4">
+                <div class="row">
+                    <div class="col-1">
+                        <input type="checkbox" class="todosp" name="todosp" checked>
+                        <label for="todosp"></label>
+                    </div>
+                    <div class="col-2">
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-5">
+                        <h5>Produto generico de cor e tamanho aleatorio</h5>
+                    </div>
+                    <div class="col-1">
+                        <button class="d-flex justify-content-end">+</button>
+                    </div>
+                    <div class="col-1">
+                        <p class="d-flex justify-content-start">1</p>
+                    </div>
+                    <div class="col-1">
+                        <button class="d-flex justify-content-end">-</button>
+                    </div>
+                    <div class="col-1">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="pad"></div>
+            <div class="caixa">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                        <h5>Total:</h5>
+                    </div>
+                    <div class="botW">
+                        <div class="col-sm-6 col-md-6">
+                            <button class=" d-flex justify-content-end">
+                                <img class="icone" src="../imagens/img-rodape/whatsapp.png" alt="">
+                                Compras por Whatsapp
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Produtos Fim-->
+    <!-- -=-=-| Footer Inicio |-=-=- -->
+
+    <footer class="rodape">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-5 justify-content-center">
+                    <img class="icon pr-5" src="../imagens/img-rodape/instagram.png" alt="Icone instagram">
+                    <img class="icon" src="../imagens/img-rodape/whatsapp.png" alt="Icone Whatsapp">
+                </div>
+                <div class="col-sm-12 col-md-3 d-flex ">
+                    <h5 class="d-flex justify-content-center">@ 2022 Elegance</h5>
+                </div>
+                <div class="col-sm-12 col-md-4 d-flex ">
+                    <p class="d-flex justify-content-end">(31)4002-8922 / elegance@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+    <!-- -=-=-| Footer Fim |-=-=- -->
+    </body>
 </html>

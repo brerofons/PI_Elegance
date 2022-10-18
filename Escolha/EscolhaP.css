@@ -7,7 +7,7 @@ body{
     margin: 0,auto;
 }
 .cor{
-    background-color: #ffffff;
+    background-color: #F0E3CE;
 }
 /* -=-=-| Inicio Cabeçalho |-=-=- */
 
@@ -42,8 +42,9 @@ header .carrinho{
 
 }
 
-/* -=-=-| Fim Cabeçalho |-=-=- */
-/* -=-=-| Inicio Conteudo |-=-=- */
+/* -=-=- | Fim Cabeçalho | -=-=- */
+
+/* -=-=- | Inicio Conteudo | -=-=- */
 .conteudo{
     flex: 1 0 auto;
 }
@@ -51,8 +52,39 @@ header .carrinho{
     width: 350px;
     height: 450px;
 }
-/* -=-=-| Fim Conteudo |-=-=- */
-/* -=-=-| Inicio Rodapé |-=-=- */
+
+/* -=-=- | Inicio PHP | -=-=- */
+.car label {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50px;
+    border : solid 1px black;
+    transition: all 0.3s;
+  }
+
+.car label div[class*="azul"]{
+    background-color: blue;
+    border: solid 5px;
+}
+.car .azul input[type="radio"]:checked + label {
+    border: solid 10px green;
+}
+.car .laranja > label{
+    background-color: orange;
+}
+
+
+.car input[type="radio"] {
+    display: none;
+}
+  
+.car input[type="radio"]:checked + label {
+    border: solid 10px green;
+}
+/* -=-=- | FIM PHP | -=-=- */
+
+/* -=-=- | Fim Conteudo | -=-=- */
+/* -=-=- | Inicio Rodapé | -=-=- */
 .rodape{
     flex-shrink: 0;
     background-color: #EBAB69;
@@ -62,11 +94,5 @@ header .carrinho{
 .icon{
     width: 40px;
     height: 40px;
-}
-hr{
-    height: 4px;
-    background-color: white;
-    border: none;
-    padding-top: 4px;
 }
 /* -=-=-| Fim Rodapé |-=-=- */
