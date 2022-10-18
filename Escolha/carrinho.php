@@ -69,6 +69,9 @@
                     </div>
                 </div>
             </div>
+            <?php
+            
+            ?>
             <div class="pad"></div>
             <div class="caixa">
                 <div class="row">

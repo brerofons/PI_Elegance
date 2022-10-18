@@ -32,10 +32,10 @@
     <main class="conteudo">
         <div class="container">
             <div class="row ">
-                <div class="col-sm-12 col-md-5">
+                <div class="col-sm-12 col-lg-5">
                     <img class="produ d-flex justify-content-center" src="../imagens/Produto/Anabela_branco_laranja.png" alt="Produto">
                 </div>
-                <div class="col-sm-12 col-md-7">
+                <div class="col-sm-12 col-lg-7">
                     <div class="row">
                         <div class="col ">
                             <h1>Sandalia salto alto</h1>
@@ -49,7 +49,7 @@
                     <div class="row pt-4">
                         <div class="col">
                             <form action="carrinho.php" method="get" class="car">
-                                <legend>Cores</legend>
+                                <legend class="distance">Cores:</legend>
                                 <fieldset class="cores">
                                     
                                     <input type="radio" name="cor" id="azul" value="azul" checked>
@@ -60,7 +60,7 @@
 
                                 </fieldset>
 
-                                <legend>Tamanho</legend>
+                                <legend class="distance">Tamanhos:</legend>
                                 <fieldset>
                                     <input type="radio" name="tamanho" id="42" value="42" checked>
                                     <label for="42" class="tamanho">42</label>
@@ -68,24 +68,29 @@
                                     <input type="radio" name="tamanho" id="44" value="44">
                                     <label for="44"class="tamanho">44</label>
                                 </fieldset>
-                                <legend>Quantidade</legend>
+                                <legend class="distance">Quantidade:</legend>
 
                                 <fieldset>
-                                    <div>
-                                        <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepDown();">
-                                          -
+                                    <div class="quantidade">
+                                        <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepDown();" class="bot">
+                                          <p>-</p>
                                         </button>
                                       
                                         <input type="number" name="number" min="1" max="10" value="1">
+                                        <!--readonly-->
                                       
-                                        <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepUp();">
-                                          +
+                                        <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepUp();"class="bot">
+                                          <p>+</p>
                                         </button>
                                       </div>
                                 </fieldset>
 
-                                <input type="submit" value="Adicionar ao carrinho">
+                                <div class="row coraline">
+                                    <div class="d-flex justify-content-center col-lg-3 col-6"><input type="submit" class="bt_carrinho mt-5" value="Adicionar ao carrinho"></div>
+                               
                             </form>
+                                <div class="d-flex justify-content-center col-lg-3 col-6"><a href="https://wa.me/5531999104670?text=hii" class="bt_whatsapp  mt-5"><img src="img/img_atalhos/Vector.png" class="zap" alt="Ir para o whatsapp"> Ir para compra</a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
