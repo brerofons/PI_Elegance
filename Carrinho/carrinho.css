@@ -29,9 +29,13 @@ header .logo{
 header .texto{
     padding-top: 20px ;
     color: white;
- 
+    transition: all 0.5s;
+    cursor: pointer; 
 }
-
+.texto:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+}
 header .carrinho{
     transition: all 0.5s;
     cursor: pointer;
@@ -47,24 +51,13 @@ header .carrinho{
 .conteudo{
     flex: 1 0 auto;
 }
-
-/* -=-=- | Inicio Carrosel | -=-=- */
-
-.carrosel {
-
-    padding-top: 50px;
-
+.icone{
+    width: 25px;
+    height: 25px;
 }
-
-/* -=-=- | Fim Carrosel | -=-=- */
 .img{
-    height: 400px;
+    height: 300px;
     width: 100%;
-    border: black,1px;
-}
-.img1{
-    height: 400px;
-    width: 420px;
     border: black,1px;
 }
 .bimg{
@@ -73,17 +66,16 @@ header .carrinho{
     border: black,1px;
 }
 .bane1{
-    background-color: #EBAB69;
+    background-color: #E1B587;
     height: 40px;
     width: 80%;
-    border-radius: 50px;
-    color: #ffffff;
 }
-hr{
-    height: 4px;
+.caixa{
     background-color: white;
-    border: none;
-    padding-top: 4px;
+    border: black solid 3px;
+}
+.pad{
+    padding-top: 10px;
 }
 /* -=-=-| Fim Conteudo |-=-=- */
 /* -=-=-| Inicio Rodapé |-=-=- */
@@ -96,5 +88,11 @@ hr{
 .icon{
     width: 40px;
     height: 40px;
+}
+hr{
+    height: 4px;
+    background-color: white;
+    border: none;
+    padding-top: 4px;
 }
 /* -=-=-| Fim Rodapé |-=-=- */
