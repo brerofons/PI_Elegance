@@ -22,9 +22,8 @@
     Gostaria de saber o preço?"></a>
     }else{
     <a href="https://wa.me/$num?text=Olá gostaria de comprar os seguinte produtos:
-    ----------------------
     $prod
-    Gostaria de saber o preço?"></a>
+    a Gostaria de saber o preço?"></a>
     };
     ?>
 </body>
