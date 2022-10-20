@@ -55,7 +55,7 @@ header .carrinho{
 
 }
 
-/* -=-=- | Inicio PHP | -=-=- */
+/* -=-=- | Inicio PHP HTML | -=-=- */
 .distance {
     padding-top: 20px
 }
@@ -175,10 +175,42 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 /* -=-=- | Fim Terceira Parte -=-=- */
+/* -=-=- | FIM PHP HTML | -=-=- */
+/* -=-=- | Fim Conteudo | -=-=- */
+
+/* -=-=- | Inicio PHP | -=-=- */
+
+
+.icone{
+    width: 25px;
+    height: 25px;
+}
+.img{
+    height: 300px;
+    width: 100%;
+    border: black,1px;
+}
+.bimg{
+    height: 300px;
+    width: 100%;
+    border: black,1px;
+}
+.bane1{
+    background-color: #E1B587;
+    height: 40px;
+    width: 80%;
+}
+.caixa{
+    background-color: white;
+    border: black solid 3px;
+}
+.pad{
+    padding-top: 10px;
+}
+
 
 /* -=-=- | FIM PHP | -=-=- */
 
-/* -=-=- | Fim Conteudo | -=-=- */
 /* -=-=- | Inicio Rodapé | -=-=- */
 .rodape{
     flex-shrink: 0;
