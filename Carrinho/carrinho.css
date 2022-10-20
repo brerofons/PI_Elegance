@@ -29,12 +29,6 @@ header .logo{
 header .texto{
     padding-top: 20px ;
     color: white;
-    transition: all 0.5s;
-    cursor: pointer; 
-}
-.texto:hover{
-    -webkit-transform: scale(1.0);
-    transform: scale(1.1);
 }
 header .carrinho{
     transition: all 0.5s;
@@ -72,10 +66,15 @@ header .carrinho{
 }
 .caixa{
     background-color: white;
-    border: black solid 3px;
+    border: grey solid 3px;
 }
 .pad{
     padding-top: 10px;
+}
+.prod{
+    width: 200px;
+    height: 200px;
+    border: black solid 1px;
 }
 /* -=-=-| Fim Conteudo |-=-=- */
 /* -=-=-| Inicio Rodapé |-=-=- */

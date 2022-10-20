@@ -29,12 +29,6 @@ header .logo{
 header .texto{
     padding-top: 20px ;
     color: white;
-    transition: all 0.5s;
-    cursor: pointer; 
-}
-.texto:hover{
-    -webkit-transform: scale(1.0);
-    transform: scale(1.1);
 }
 header .carrinho{
     transition: all 0.5s;
