@@ -9,8 +9,8 @@ body{
 .cor{
     background-color: #ffffff;
 }
-/* -=-=-| Inicio Cabeçalho |-=-=- */
 
+/* -=-=-| Inicio Cabeçalho |-=-=- */
 header .cabecalho{
     background-color: #EBAB69;
     color: white;
@@ -29,13 +29,9 @@ header .logo{
 header .texto{
     padding-top: 20px ;
     color: white;
-    transition: all 0.5s;
-    cursor: pointer; 
+ 
 }
-.texto:hover{
-    -webkit-transform: scale(1.0);
-    transform: scale(1.1);
-}
+
 header .carrinho{
     transition: all 0.5s;
     cursor: pointer;
@@ -46,10 +42,12 @@ header .carrinho{
 
 }
 
-/* -=-=-| Fim Cabeçalho |-=-=- */
-/* -=-=-| Inicio Conteudo |-=-=- */
+/* -=-=- | Fim Cabeçalho | -=-=- */
+
+/* -=-=- | Inicio Conteudo | -=-=- */
 .conteudo{
     flex: 1 0 auto;
+    padding-top: 50px;
 }
 .icone{
     width: 25px;
@@ -78,7 +76,19 @@ header .carrinho{
     padding-top: 10px;
 }
 /* -=-=-| Fim Conteudo |-=-=- */
-/* -=-=-| Inicio Rodapé |-=-=- */
+/* -=-=- | Navegador | -=-=- */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+/* -=-=- | Navegador | -=-=- */
+.quantidade input[type="number"] {
+    text-align: center;
+    text-decoration: none;
+}
+/* -=-=- | Inicio Rodapé | -=-=- */
 .rodape{
     flex-shrink: 0;
     background-color: #EBAB69;
