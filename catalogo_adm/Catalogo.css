@@ -71,7 +71,7 @@ main .fundoAd{
     width: 300px;
 }
 .botG{
-    background-color: #EBAB69;
+    background-color: #888888;
     height: 50px;
     width: 200px;
     font-size: 1.4rem;
@@ -81,6 +81,10 @@ main .fundoAd{
     height: 50px;
     width: 200px;
     font-size: 1.4rem;
+}
+.limp{
+    text-decoration: none;
+    color:inherit;
 }
 /* -=-=-| Fim Conteudo |-=-=- */
 /* -=-=-| Inicio Rodapé |-=-=- */
@@ -93,5 +97,11 @@ main .fundoAd{
 .icon{
     width: 40px;
     height: 40px;
+}
+hr{
+    height: 4px;
+    background-color: white;
+    border: none;
+    padding-top: 4px;
 }
 /* -=-=-| Fim Rodapé |-=-=- */

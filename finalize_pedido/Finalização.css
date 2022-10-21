@@ -46,13 +46,25 @@ header .carrinho{
 }
 .caixa{
     background-color: white;
-    border: solid 5px black;
+    border: solid 5px #E8DBE0;
 }
-.botG{
-    background-color: greenyellow;
+.bt_whatsapp {
+    display: inline-block;
+    margin-top: 50px;
+    background-color: #52AE65;
+    width: 180px;
+    height: 45px;
+    border-radius: 10px;
+    border: solid 1px black;
+    text-align: center;
+    padding-top: 8px;
+    text-decoration: none;
+    color:inherit;
 }
-.botR{
-    background-color: red;
+.bt_whatsapp .zap {
+    width: 25px;
+    height: 25px;
+    border: none;
 }
 /* -=-=-| Fim Cabeçalho |-=-=- */
 /* -=-=-| Inicio Conteudo |-=-=- */
@@ -65,7 +77,7 @@ header .carrinho{
     border: black,1px;
 }
 .bane1{
-    background-color: #E1B587;
+    background-color: #b9b6b6;
     height: 40px;
     width: 80%;
 }
@@ -81,7 +93,7 @@ header .carrinho{
     width: 40px;
     height: 40px;
 }
-hr{
+.hr{
     height: 4px;
     background-color: white;
     border: none;
