@@ -1,0 +1,36 @@
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 1000px;
+    max-height: 1000px;
+  }
+  .card {
+    margin: 1rem;
+    box-shadow: 10px ;
+    border: solid 1px;
+    border-radius: 0;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+
+  @media (min-width: 768px) {
+    .card img {
+        width:300px ;
+      height: 300px;
+    }
+  }
+  .texto2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: #523e3e;
+}
+
+.bloco a{
+    text-decoration: none;
+    color: white;
+    text-align: end;
+    font-size: 20px;
+}

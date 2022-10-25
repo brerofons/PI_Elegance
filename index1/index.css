@@ -1,0 +1,46 @@
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0,auto;
+}
+.conteudo{
+    flex: 1 0 auto;
+    padding-top: 25 px;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+body .nav li a
+{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.cor {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.cor_frete {
+    background-color: #42A3DA;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.color_rodape{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.rodape{
+    flex-shrink: 0;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
