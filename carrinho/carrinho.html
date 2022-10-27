@@ -10,56 +10,77 @@
 </head>
 <body>
         <!-- Cabecalho Inicio -->
-        <header class="container-fluid">
-            <div class="row">
-                <div class="col-12 marrom">
-                    <h2 class="d-flex justify-content-center">Elegance Calcados</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3"></div>
-                <div class="col-6">
-                    <div class="row">
-                        <div class="col-3">
-                            <a href="../index/index.html" class="limpa"><p class="d-flex justify-content-center">Home</p></a>
-                        </div>
-                        <div class="col-3">
-                            <a href="../produtos/produtos.html" class="limpa"><p class="d-flex justify-content-center">Produtos</p></a>
-                        </div>
-                        <div class="col-3">
-                            <a href="../sobre/sobre.html" class="limpa"><p class="d-flex justify-content-center">Historia</p></a>
-                        </div>
-                        <div class="col-3">
-                            <a href="../carrinho/carrinho.html" class="limpa"><p class="d-flex justify-content-center">Compras</p></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3"></div>
+        <header>
+            <div class="container-fluid text-center pt-1 pb-1">
+               <h2>Elegance Calçados</h2> 
             </div>
         </header>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 d-flex justify-content-center azul"><a href="../index1/index.html"><span >Home</span></a></div>
+                    <div class="col-3 d-flex justify-content-center azul"><a href="../produtos/produtos.html"><span>Produtos</span></a></div>
+                    <div class="col-3 d-flex justify-content-center azul"><a href="../sobre/sobre.html"><span>Sobre Nós</span></a></div>
+                    <div class="col-3 d-flex justify-content-center selecio"><a href="../carrinho/carrinho.html"><span style="color: #ffffff">Carrinho</span></a></div>
+                </div>
+            </div>
+        </nav>
         <!-- Cabecalho Fim -->
+        
         <!-- Historia Inicio -->
-        <main class="container">
-            
+        <main class="conteudo">
+            <div class="container">
+                <div class="pt-5"></div>
+                <div class="row">
+                    <h2 class="d-flex justify-content-center azulu">Carrinho de compras</h2>
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="produ d-flex justify-content-between align-items-center">
+                            <input type="checkbox" name="prod1" id="prod1" checked>
+                            <img src="../img/imagem_categ/Rectangle 11.png" class="imgcar" alt="">
+                            <h3>Anabela Salto alto</h3>
+                            <h5>Tamanho:44</h5>
+                            <h5>Cor: Azul</h5>
+                        </div>
+                    </div>
+                    <div class="pt-3"></div>
+                    <div class="row">
+                        <div class="produ d-flex justify-content-between align-items-center">
+                            <input type="checkbox" name="prod2" id="prod2" checked>
+                            <img src="../img/imagem_categ/Rectangle 9.png" class="imgcar" alt="">
+                            <h3>Sapatilha de couro</h3>
+                            <h5>Tamanho:40</h5>
+                            <h5>Cor: Bege</h5>
+                        </div>
+                    </div>
+                    <div class="pt-3"></div>
+                    <div class="row">
+                        <div class="produ d-flex justify-content-end">
+                            <button class="botz" type="submit"><a href="../finalizar/finalizar.html">Compre no WhatsApp</a></button>
+                        </div>
+                    </div>        
+                </form>            
+                
+            </div>
         </main>
         <!-- Historia Fim -->
-            <!-- Rodape Inicio -->
-            <div class="pt-5"></div>
-            <footer class="marrom pt-3 container-fluid">
-                <div class="row">
-                    <div class="col-6 ">
-                        <a href="../sobre/sobre.html" class="limpab"><h3 class="d-flex justify-content-center ">Sobre nos</h3></a>
-                        <a href="../sobre/sobre.html" class="limpab"><p class="d-flex justify-content-center ">DropBox</p></a>
-                        <a href="../sobre/sobre.html" class="limpab"><p class="d-flex justify-content-center ">Elegance Calçados</p></a>
+        <!-- Rodape Inicio -->
+        <div class="pt-5"></div>
+            <footer class="rodape">
+                <div class="row color_rodape">
+                    <div class="col-lg-6 col-sm-12 text-center ">
+                        <div class="color_rodape"><h3>Sobre nos</h3></div>
+                        <div><a href="../sobre/sobre.html" class="color_rodape"><span>DropBox</span></a></div>
+                        <div><a href="../sobre/sobre.html" class="color_rodape"><span>Elegance Calçados</span></a></div>
                     </div>
-                    <div class="col-6">
-                        <h3 class="d-flex justify-content-center">Contato</h3>
-                        <p class="d-flex justify-content-center">WhatsApp: (31) 99999-0000</p>
-                        <p class="d-flex justify-content-center">elegancecalcados@gmail.com</p>
+                    <div class="col-lg-6 col-sm-12 text-center">
+                        <div><h3>Contato</h3></div>
+                       <div><span> WhatsApp: (31) 99999-0000</span></div>
+                        <div><span>elegancecalcados@gmail.com</span></div>
                     </div>
                 </div>
             </footer>
-        </div>
         <!-- Rodape Fim -->  
 </body>
 </html>

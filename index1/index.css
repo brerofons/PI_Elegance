@@ -1,3 +1,8 @@
+
+.aumento{
+    color: #ffffff;
+    font-size: 2.5rem;
+}
 html, body{
     height: 100%;
 }
@@ -15,9 +20,7 @@ header {
     background-color: black;
     color: white;
 }
-
-body .nav li a
-{
+.col-3 a{
     text-decoration: none;
     list-style: none;
     color: black;
@@ -43,4 +46,14 @@ body .nav li a
     background-color: black;
     color: white;
     padding: 30px;
+}
+.container .row .selecio{
+    background-color: #000000;
+    color: white;
+    height: 30px;
+}
+.azul:hover{
+    background-color: #42A3DA;
+    color: #ffffff;
+    height: 30px;
 }
