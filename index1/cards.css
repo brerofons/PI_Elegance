@@ -16,6 +16,7 @@
   padding: 1em;
 }
 
+
 @media (min-width: 768px) {
   .card img {
       width:300px ;
@@ -59,6 +60,7 @@ height: 50%;
 background-color: black;
 transition: 1s ease;
 animation: subindo 0.5s;
+
 }
 
 @keyframes subindo
@@ -75,4 +77,5 @@ color: white;
 }
 .details a {
 text-decoration: none;
+
 }
