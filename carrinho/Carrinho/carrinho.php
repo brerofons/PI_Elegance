@@ -19,7 +19,7 @@
     
         <!-- -=-=-| Cabeçalho Inicio |-=-=- -->
 <?php
- $cor = $_GET ["cor"];
+ $cor = $_POST ["cor"];
 
 
  echo "$cor";

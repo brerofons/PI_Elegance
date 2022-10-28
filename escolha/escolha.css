@@ -19,7 +19,7 @@ header {
     background-color: black;
     color: white;
 }
-.col-3 a{
+span{
     text-decoration: none;
     list-style: none;
     color: black;
@@ -46,14 +46,19 @@ header {
     color: white;
     padding: 30px;
 }
-.container .row .selecio{
-    background-color: #000000;
-    color: white;
-    height: 30px;
-}
 .azul:hover{
     background-color: #42A3DA;
     color: #ffffff;
+}
+.container .row a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.cor {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
 }
 
 
@@ -63,11 +68,7 @@ header {
     flex: 1 0 auto;
     padding-top: 50px;
 }
-.produ{
-    width: 365px;
-    height: 450px;
 
-}
 
 /* -=-=- | Inicio PHP HTML | -=-=- */
 .distance {
@@ -150,40 +151,29 @@ input[type=number]::-webkit-outer-spin-button {
 
 .car input[type="button"] {
     text-align: center;
-    border-radius: 50px;
-    width: 25px;
-    height: 25px;
+    border-radius: 10px;
 }
 
  .bt_carrinho {
-    display: inline-block;
-    margin-top: 50px;
+
     background-color: #454545;
     color: white;
-    width: 180px;
-    height: 45px;
-    border-radius: 10px;
-}
-.btnSubmit .bt_whatsapp {
-    display: inline-block;
-    margin-top: 50px;
-    background-color: #52AE65;
-    width: 180px;
-    height: 45px;
-    border-radius: 10px;
-    border: solid 1px black;
-    text-align: center;
-    padding-top: 8px;
 
 }
-.bt_whatsapp .zap {
-    width: 25px;
-    height: 25px;
-    border: none;
-}
-.coraline a, .coraline a:hover  {
-    text-decoration: none;
+.bt_whatsapp {
+
+    background-color: #03612e;
     color: white;
+
+}
+.prod {
+    width: 100%;
+    height: 100%;
+}
+.coraline button {
+    width: 200px;
+    min-height: 40px;
+    border-radius: 10px;
 }
 
 
@@ -224,7 +214,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* -=-=- | FIM PHP | -=-=- */
 .btnSubmit {
-    width: 50%;
+    width: 100%;
     border-radius: 1rem;
     padding: 1.5%;
     color: #fff;
@@ -235,3 +225,17 @@ input[type=number]::-webkit-outer-spin-button {
     color: rgb(246, 246, 252);
     margin-top: 4%;
 }
+
+/* -=-=- | Inicio Rodape | -=-=- */
+
+.color_rodape span{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.rodape{
+    flex-shrink: 0;
+    background-color: black;
+    color: white;
+}
+/* -=-=- | Fim Rodape | -=-=- */
