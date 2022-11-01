@@ -26,7 +26,7 @@ function gotowhatsapp() {
         + "Cor: " + corselecionada + "%0a"
         + "Tamanho: " + tamanhoselecionado + "%0a"
         + "Quantidade: " + quantidade + "%0a"
-        + "Metodo de pagamento" + pagamento;
+        + "Metodo de pagamento: " + pagamento;
 
     window.open(url, '_blank').focus();
 }
