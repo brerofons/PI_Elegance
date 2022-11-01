@@ -48,7 +48,7 @@ button a{
     color: white;
     padding: 30px;
 }
-.container .row .selecio{
+.container .row .selecionado{
     background-color: #000000;
     color: white;
     height: 30px;
@@ -57,11 +57,12 @@ button a{
     background-color: #42A3DA;
     color: #ffffff;
     height: 30px;
+
 }
-.azulu{
-    background-color: #42A3DA;
-    color: #ffffff;
-    border-radius: 5px;
+.container .row a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
 }
 .produ{
     background-color: #d4d3d3;

@@ -111,33 +111,44 @@
                                         </div>
 <!-- -=-=- | Inicio do Pop - Up | -=-=- --><div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" ria-hidden="true">
                                                 <div class="modal-dialog">
-                                                    <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <h5 class="modal-title" id="exampleModalLabel">Informe seus dados:</h5>
-                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <input type="text" id="nome" placeholder="Informe seu nome:">
-                                                        <div class="form-group" >
-                                                            <select id="pagamento" class="mt-3">
-                                                                <option value="">Metodo de Pagamento</option>
-                                                                <option value="">Cartão de Crédito</option>
-                                                                <option value="">Cartão de Débito</option>
-                                                                <option value="">Dinheiro</option>
-                                                                <option value="">Pix</option>
-                                                            </select>
+                                                    <div class="modal-content ">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title col-10" id="exampleModalLabel">Informe seus dados:</h5>
+                                                            <button type="button" class="btn-close col-2" data-bs-dismiss="modal" aria-label="Close"></button>
                                                         </div>
+                                                        <div class="modal-body">
+                                                            <input type="text" id="nome" placeholder="Informe seu nome:">
+                                                            <div class="form-group">
+                                                                <select class="mt-3">
+                                                                    <option onclick="paymentselected(this)" value="">
+                                                                        <p>Metodo de Pagamento</p>
+                                                                    </option>
+                                                                    <option value="Cartão de Crédito">
+                                                                        <p  onclick="paymentselected(this)" for="Cartão de Crédito">Cartão de Crédito</p>
+                                                                    </option>
+                                                                    <option onclick="paymentselected(this)" value="">
+                                                                        <p>Cartão de Débito</p>
+                                                                    </option>
+                                                                    <option onclick="paymentselected(this)" value="">
+                                                                        <p>Dinheiro</p>
+                                                                    </option>
+                                                                    <option onclick="paymentselected(this)" value="">
+                                                                        <p>Pix</p>
+                                                                    </option>
+                                                                </select>
+                                                            </div>
 
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <button type="button" class="bt_carrinho" data-bs-dismiss="modal">Fechar</button>
-                                                        <button type="button" class="bt_whatsapp" onclick="gotowhatsapp()">WhatsApp</button>
-                                                    </div>
+                                                        </div>
+                                                        <div class="modal-footer d-flex justify-content-center">
+                                                            <button type="button" class="bt_carrinho col-5" data-bs-dismiss="modal">
+                                                                <span style="color: white;">Fechar</span>
+                                                            </button>
+                                                            <button type="button" class="bt_whatsapp col-5" onclick="gotowhatsapp()"> <span class="bt_whatsapp">WhatsApp</span>
+                                                            </button>
+                                                        </div>
                                                     </div>
                                                 </div>
 <!-- -=-=- | FIm do Pop - Up | -=-=- --></div>
-                               
-                                        
                                     </div>
                                    
                                 </div>
