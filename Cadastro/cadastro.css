@@ -1,0 +1,70 @@
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0,auto;
+}
+.conteudo{
+    flex: 1 0 auto;
+    padding-top: 25 px;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+ a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.cor {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.azul{
+    background-color: #42A3DA;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.img{
+    width: 170px;
+    height: 170px;
+}
+.ite{
+    background-color: #42A3DA;
+    border-radius: 5px;
+}
+.botad{
+    background-color: #0ec460;
+    color: white;
+    align-items: center;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    border: #0ec460;
+}
+.botalt{
+    width: 160px;
+    background-color: #e98f46;
+    color: white;
+    align-items: center;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    border: #e98f46;
+}
+.botexc{
+    width: 160px;
+    background-color: #940606;
+    color: white;
+    align-items: center;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    border: #940606;
+}
+dialog{
+    width: 80%;
+}
