@@ -177,7 +177,15 @@ input[type=number]::-webkit-outer-spin-button {
     border-radius: 10px;
 }
 
+.metodo_tamanho {
+    height: 35px;
+    width: 100%;
+}
 
+.nome_tamanho {
+    height: 35px;
+    width: 100%;
+}
 /* -=-=- | Fim Terceira Parte -=-=- */
 /* -=-=- | FIM PHP HTML | -=-=- */
 /* -=-=- | Fim Conteudo | -=-=- */
