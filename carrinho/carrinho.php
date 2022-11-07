@@ -54,13 +54,15 @@
                     </div>
                     <div class="pt-3"></div>
                     <div class="row">
-                        <div class="produ d-flex justify-content-between align-items-center">
-                            <input type="checkbox" name="prod2" id="prod2" checked>
-                            <img src="../img/imagem_categ/Rectangle 9.png" class="imgcar" alt="">
-                            <h3>Sapatilha de Couro</h3>
-                            <h5>Tamanho: 40</h5>
-                            <h5>Cor: Bege</h5>
-                        </div>
+                    <?php
+
+$cor = $_POST ["cor"];  
+$tamanho = $_POST ["tamanho"];
+$number = $_POST ["number"];
+
+echo "$cor, $tamanho, $number";
+
+?>
                     </div>
                     <div class="pt-3"></div>
                     <div class="row">

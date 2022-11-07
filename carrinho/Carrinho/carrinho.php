@@ -11,18 +11,18 @@
         <link rel="stylesheet" href="Carrinho.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="script.js"></script>
-    
-    
         <title>Carrinho</title>
     </head>
-    <body class="body pagina cor" onload="gotowhatsapp()">
+    <body>
     
-        <!-- -=-=-| Cabeçalho Inicio |-=-=- -->
 <?php
- $cor = $_POST ["cor"];
 
+    $cor = $_POST ["cor"];  
+    $tamanho = $_POST ["tamanho"];
+    $number = $_POST ["number"];
 
- echo "$cor";
+    echo "$cor, $tamanho, $number";
+
 ?>
     <!-- -=-=-| Footer Fim |-=-=- -->
     </body>

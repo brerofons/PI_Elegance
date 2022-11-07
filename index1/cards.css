@@ -32,8 +32,8 @@
   font-size: 20px;
 }
 .cards {
-height: 15rem;
-width: 15rem;
+height: 25rem;
+width: 23rem;
 overflow: hidden;
 position: relative;
 cursor: pointer;
