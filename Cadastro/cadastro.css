@@ -2,6 +2,7 @@ html, body{
     height: 100%;
 }
 body{
+    font-family: Volga;
     display: flex;
     flex-direction: column;
     margin: 0,auto;
@@ -66,5 +67,7 @@ header {
     border: #940606;
 }
 dialog{
+    align-items: center;
     width: 80%;
+    border-radius: 10px;
 }
