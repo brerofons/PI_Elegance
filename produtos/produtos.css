@@ -43,7 +43,6 @@ header {
     border-radius: 5px;
     border: #000000 solid 1px;
 }
-
 .rodape{
     flex-shrink: 0;
     background-color: black;
@@ -58,18 +57,9 @@ header {
 .azul:hover{
     background-color: #42A3DA;
     color: #ffffff;
-    height: 30px;
-
 }
 .container .row a{
     text-decoration: none;
     list-style: none;
     color: black;
-}
-.imgc:hover{
-    background-color: #42A3DA;
-    width: 300px;
-    height: 300px;
-    border-radius: 5px;
-    border: #000000 solid 1px;
 }

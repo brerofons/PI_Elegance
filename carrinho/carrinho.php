@@ -128,7 +128,7 @@ echo "$cor, $tamanho, $number";
                     <div class="col-lg-6 col-sm-12 text-center ">
                         <div class="color_rodape"><h3>Sobre nos</h3></div>
                         <div><a href="../sobre/sobre.html" class="color_rodape"><span>DropShip</span></a></div>
-                        <div><a href="../sobre/sobre.html" class="color_rodape"><span>Ellegance Calçados</span></a></div>
+                        <div><a href="../sobre/sobre.html" class="color_rodape"><span>História</span></a></div>
                     </div>
                     <div class="col-lg-6 col-sm-12 text-center">
                         <div><h3>Contatos</h3></div>
