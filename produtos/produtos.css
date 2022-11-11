@@ -37,11 +37,16 @@ header {
     list-style: none;
     color: white;
 }
-.imgc{
+img{
     width: 300px;
     height: 300px;
     border-radius: 5px;
     border: #000000 solid 1px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+img:hover{
+    transform: scale(1.3);
 }
 .rodape{
     flex-shrink: 0;
@@ -62,4 +67,8 @@ header {
     text-decoration: none;
     list-style: none;
     color: black;
+}
+.azulu{
+    background-color: #42A3DA;
+    color: #ffffff;
 }

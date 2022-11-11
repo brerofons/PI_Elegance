@@ -27,7 +27,7 @@
                 <a href="../sobre/sobre.html" class="col-3 d-flex justify-content-center azul">
                     <div><span>História</span></div>
                 </a>
-                <a href="../carrinho/carrinho.html" class="col-3 d-flex justify-content-center azul">
+                <a href="../carrinho/carrinho.php" class="col-3 d-flex justify-content-center azul">
                     <div><span>Carrinho</span></div>
                 </a>
             </div>
@@ -48,7 +48,7 @@
 
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="../img/imagem_carrosel/1.png" class="d-block w-100 img-fluid" alt="...">
+                            <img src="../img/imagem_carrosel/4.png" class="d-block w-100 img-fluid" alt="...">
                         </div>
                     <div class="carousel-item">
                         <img src="../img/imagem_carrosel/2.png " class="d-block w-100 img-fluid" alt="...">
@@ -85,19 +85,19 @@
                             <div class="card text-center cards">
                                 <img src="../img/imagem_categ/lara.png" class="d-block w-100 img-fluid" alt="...">
                                 <a href="../produtos/produtos.html"><div class="card-body text-center details">
-                                   <h3>Ver Mais</h3>
+                                   <h3>Anabelas</h3>
                                 </div></a>
                             </div>
                             <div class="card d-none d-md-block text-center cards">
                                 <img src="../img/imagem_categ/chinelo.jpg" class="d-block w-100 img-fluid" alt="...">
                                 <a href="../produtos/produtos.html"><div class="card-body text-center details">
-                                    <h3>Ver Mais</h3>
+                                    <h3>Sandalia</h3>
                                  </div></a>
                             </div>
                             <div class="card d-none d-md-block text-center cards">
-                                <img src="../img/imagem_categ/papete.PNG" class="d-block w-100 img-fluid" alt="...">
+                                <img src="../img/imagem_categ/Rectangle 12.png" class="d-block w-100 img-fluid" alt="...">
                                 <a href="../produtos/produtos.html"><div class="card-body text-center details">
-                                    <h3>Ver Mais</h3>
+                                    <h3>Scarpins</h3>
                                  </div></a>
                             </div>
                     
@@ -106,21 +106,21 @@
                   <div class="carousel-item">
                     <div class="cards-wrapper">
                         <div class="card text-center cards">
-                            <img src="../img/imagem_categ/Rectangle 10.png" class="d-block w-100 img-fluid" alt="...">
+                            <img src="../img/imagem_categ/tenis.PNG" class="d-block w-100 img-fluid" alt="...">
                             <a href="../produtos/produtos.html"><div class="card-body text-center details">
-                                <h3>Ver Mais</h3>
+                                <h3>Tênis</h3>
                              </div></a>
                             </div>
                         <div class="card d-none d-md-block text-center cards">
                             <img src="../img/imagem_categ/Rectangle 9.png" class="d-block w-100 img-fluid" alt="...">
                             <a href="../produtos/produtos.html"><div class="card-body text-center details">
-                                <h3>Ver Mais</h3>
+                                <h3>Sapatilhas</h3>
                              </div></a>
                         </div>
                         <div class="card d-none d-md-block text-center cards">
                             <img src="../img/imagem_categ/Rectangle 8.png" class="d-block w-100 img-fluid" alt="...">
                             <a href="../produtos/produtos.html"><div class="card-body text-center details">
-                                <h3>Ver Mais</h3>
+                                <h3>Botas</h3>
                              </div></a>
                         </div>
                     </div>
@@ -142,18 +142,44 @@
                 </div>
             </div>
         </section>
-    </div>  
+    </div>
+    <!-- -=-=- | Inicio do Pop - Up | -=-=- -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" ria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h5 class="modal-title col-10" id="exampleModalLabel">Informe seus dados:</h5>
+                    <button type="button" class="btn-close col-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <input class="form-control me-1" type="search" placeholder="Informe seu usuario" aria-label="Search">
+                        <input type="password" size="10" maxlength="10" placeholder="Informe a senha">
+                    </form>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="botexc col-5" data-bs-dismiss="modal">
+                        <span >Fechar</span>
+                    </button>
+                    <button type="button" class="botad col-5" onclick="gotowhatsapp()"> <span>Cadastrar</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div><!-- -=-=- | FIm do Pop - Up | -=-=- -->  
     <footer class="rodape">
         <div class="row color_rodape">
             <div class="col-12 col-lg-6 text-center ">
                 <div class="color_rodape"><h3>Sobre nós</h3></div>
-                <div><a href="../sobre/sobre.html" class="color_rodape"><span>DropShip</span></a></div>
                 <div><a href="../sobre/sobre.html" class="color_rodape"><span>História</span></a></div>
             </div>
             <div class="col-12 col-lg-6 text-center">
                 <div><h3>Contato</h3></div>
                <div><span> whatsApp: (31) 9 7317-9350</span></div>
                 <div><span>ellegancecalcados@gmail.com</span></div>
+            </div>
+            <div class="col-12">
+                <a class="d-flex justify-content-center" href="../Cadastro/cadastro.html"><img  src="../img/imagem_categ/userb.png" alt="" class="d-flex justify-content-center"></a>
             </div>
         </div>
     </footer>

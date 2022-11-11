@@ -64,16 +64,13 @@
         <nav>
             <div class="container">
                 <div class="row">
-                    <a href="../index1/index.html" class="col-3 d-flex justify-content-center azul">
+                    <a href="../index1/index.html" class="col-4 d-flex justify-content-center azul">
                         <div ><span>Home</span></div>
                     </a>
-                    <a href="../produtos/produtos.html" class="col-3 d-flex justify-content-center azul">
-                        <div><span>Produtos</span></div>
-                    </a>
-                    <a href="../sobre/sobre.html" class="col-3 d-flex justify-content-center azul">
+                    <a href="../sobre/sobre.html" class="col-4 d-flex justify-content-center azul">
                         <div><span>História</span></div>
                     </a>
-                    <a href="../carrinho/carrinho.html" class="col-3 d-flex justify-content-center selecionado">
+                    <a href="../carrinho/carrinho.php" class="col-4 d-flex justify-content-center selecionado">
                         <div><span>Carrinho</span></div>
                     </a>
                 </div>
