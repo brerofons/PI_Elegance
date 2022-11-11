@@ -14,6 +14,14 @@
     <title>Carrinho</title>
 </head>
 <body>
+    <?php
+
+        $cor = $_POST ["cor"];  
+        $tamanho = $_POST ["tamanho"];
+        $number = $_POST ["number"];
+
+        echo "$cor, $tamanho, $number";
+    ?>
         <!-- Cabecalho Inicio -->
         <header>
             <div class="container-fluid text-center pt-1 pb-1">
@@ -97,15 +105,7 @@
                     </div>
                     <div class="pt-3"></div>
                     <div class="row">
-                    <?php
-
-$cor = $_POST ["cor"];  
-$tamanho = $_POST ["tamanho"];
-$number = $_POST ["number"];
-
-echo "$cor, $tamanho, $number";
-
-?>
+                    
                     </div>
                     <div class="pt-3"></div>
                     <div class="row">
@@ -124,7 +124,6 @@ echo "$cor, $tamanho, $number";
                 <div class="row color_rodape">
                     <div class="col-lg-6 col-sm-12 text-center ">
                         <div class="color_rodape"><h3>Sobre nos</h3></div>
-                        <div><a href="../sobre/sobre.html" class="color_rodape"><span>DropShip</span></a></div>
                         <div><a href="../sobre/sobre.html" class="color_rodape"><span>História</span></a></div>
                     </div>
                     <div class="col-lg-6 col-sm-12 text-center">

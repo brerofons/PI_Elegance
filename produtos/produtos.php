@@ -9,6 +9,9 @@
     <title>Produtos</title>
 </head>
 <body>
+    <?php
+
+    ?>
     <!-- Cabecalho Inicio -->
     <header>
         <div class="container-fluid text-center pt-1 pb-1">

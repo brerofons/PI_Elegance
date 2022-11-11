@@ -15,9 +15,12 @@
     <title>Cadastro de produto</title>
 </head>
 <body>
+    <?php
+    
+    ?>
     <header>
         <div class="container-fluid text-center pt-1 pb-1">
-           <h2>Elegance Calçados</h2> 
+           <h2>Ellegance Calçados</h2> 
         </div>
     </header>
     <!-- -=-=- | Inicio do Pop - Up | -=-=- -->
@@ -148,20 +151,16 @@
                     </div>
                     <div class="row pt-3">
                         <div class="col-6">
-                            <h4>Coloque a imagem</h4>
-                            
+                            <h4>Coloque a imagem</h4>                            
                         </div>
                         <div class="col-6">
-                            <h4>Coloque a descrição do produto</h4>
-                            
+                            <h4>Coloque a descrição do produto</h4>                           
                         </div>
                         <div class="col-6">
-                            <h4>Coloque as cores</h4>
-                            
+                            <h4>Coloque as cores</h4>                            
                         </div>
                         <div class="col-6">
-                            <h4>Informe a classe do produto</h4>
-                            
+                            <h4>Informe a classe do produto</h4>                            
                         </div>
                     </div>
                     <div class="row">

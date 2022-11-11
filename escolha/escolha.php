@@ -17,6 +17,9 @@
     <title>Escolha seu Produto</title>
 </head>
 <body>
+    <?php
+
+    ?>
         <!-- Cabecalho Inicio -->
         <header>
             <div class="container-fluid text-center pt-1 pb-1">
@@ -157,7 +160,7 @@
             <div class="col-12 col-lg-6 text-center">
                 <div><h3>Contato</h3></div>
                <div><span> whatsApp: (31) 99999-0000</span></div>
-                <div><span>elegancecalcados@gmail.com</span></div>
+                <div><span>ellegancecalcados@gmail.com</span></div>
             </div>
         </div>
     </footer>
