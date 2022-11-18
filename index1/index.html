@@ -17,7 +17,37 @@
                 <h2>Ellegance Calçados</h2>
             </div>
             <div class="col-2  pt-3 pb-1">
-                <a class="d-flex justify-content-center icon" href="../Cadastro/cadastro.php"><img  src="../img/imagem_categ/userb.png" alt="" class="d-flex justify-content-center"></a>
+                <a class="d-flex justify-content-center icon"  data-bs-toggle="modal" data-bs-target="#exampleModal"><img  src="../img/imagem_categ/userb.png" alt="" class="d-flex justify-content-center"></a>
+
+<!-- -=-=- | Inicio do Pop - Up | -=-=- -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" ria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content ">
+                            <div class="modal-header">
+                                <h5 class="modal-title" style="color: #000 ;" id="exampleModalLabel">Login</h5>
+                                <button type="button" class="btn-close col-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <form action="php/login.php" method="post">
+                                <div class="modal-body row d-flex justify-content-between">
+                                <div class="col-12 col-lg-6 ">
+                                    <input type="text" name="email" required placeholder="Informe seu email:"> <br>
+                                </div>
+                                <div class="form-group col-12 col-lg-6 mt-3 mt-lg-0 pb-3">
+                                    <input type="password" name="senha" required placeholder="Informe sua senha:"> <br>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-between">
+                                    <button type="button" class="bt_fechar col-5" data-bs-dismiss="modal">
+                                        <span style="color: white;">Fechar</span>
+                                    </button>
+                                    <button type="submit" class="bt_logar col-5" > <span class="bt_whatsapp">Logar</span>
+                                    </button>
+                                </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+<!-- -=-=- | FIm do Pop - Up | -=-=- -->
             </div>
            </div>
         </div>
@@ -73,8 +103,7 @@
                         <span class="visually-hidden">Next</span>
                         </button>
                 </div>
-       </section><!-- Carrosel Fim -->
-
+       </section><!-- Carrosel Fim --> 
         <section>
             <div class="container">
                 <div class="col cor pt-1 pb-1">

@@ -19,6 +19,7 @@ body{
 .icon {
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 header {
     background-color: black;
@@ -33,6 +34,17 @@ header {
     background-color: black;
     color: white;
     border-radius: 5px;
+}
+.bt_logar {
+    background-color: #42A3DA;
+    color: white;
+    align-items: center;
+}
+.bt_fechar {
+
+    background-color: #454545;
+    color: white;
+    align-items: center;
 }
 .cor_frete {
     background-color: #42A3DA;
