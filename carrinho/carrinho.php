@@ -16,16 +16,8 @@
     <title>Carrinho</title>
 </head>
 <body>
-    <?php
-
-        $cor = $_POST ["cor"];  
-        $tamanho = $_POST ["tamanho"];
-        $number = $_POST ["number"];
-
-        echo "$cor, $tamanho, $number";
-    ?>
         <!-- Cabecalho Inicio -->
-        <header>
+    <header>
         <div class="container-fluid text-center">
             
            <div class="row">
