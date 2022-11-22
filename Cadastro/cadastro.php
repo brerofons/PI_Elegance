@@ -15,12 +15,49 @@
     <title>Cadastro de produto</title>
 </head>
 <body>
-    <?php
-    
-    ?>
-    <header>
-        <div class="container-fluid text-center pt-1 pb-1">
-           <h2>Ellegance Calçados</h2> 
+<header>
+        <div class="container-fluid text-center">
+            
+           <div class="row">
+            <div class="col-11 pt-3 pb-1">
+                <h2>Ellegance Calçados</h2>
+            </div>
+            <div class="col-1 pt-3 pb-3">
+                <a class="d-flex justify-content-center icon"  data-bs-toggle="modal" data-bs-target="#exampleModal"><i class=" fa-solid fa-user d-flex mt-3" style="color: #fff; scale: 2;"></i></a>
+            </div>
+        </div>
+
+<!-- -=-=- | Inicio do Pop - Up | -=-=- -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" ria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content ">
+                            <div class="modal-header">
+                                <h5 class="modal-title" style="color: #000 ;" id="exampleModalLabel">Login</h5>
+                                <button type="button" class="btn-close col-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <form action="php/login.php" method="post">
+                                <div class="modal-body row d-flex justify-content-between">
+                                <div class="col-12 col-lg-6 ">
+                                    <input type="text" name="email" class="rounded" required placeholder="Informe seu email:"> <br>
+                                </div>
+                                <div class="form-group col-12 col-lg-6 mt-3 mt-lg-0 pb-3">
+                                    <input type="password" name="senha" class="rounded" required placeholder="Informe sua senha:"> <br>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-between">
+                                    <a href="cadastro.html" class="bt_fechar col-5 btn btn-secondary">
+                                       Cadastrar
+                                    </a>
+                                    <button type="submit" class="bt_logar col-5 btn btn-info" > <span class="bt_whatsapp">Logar</span>
+                                    </button>
+                                </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+<!-- -=-=- | FIm do Pop - Up | -=-=- -->
+            </div>
+           </div>
         </div>
     </header>
     <!-- -=-=- | Inicio do Pop - Up | -=-=- -->
