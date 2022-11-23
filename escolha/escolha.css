@@ -13,14 +13,18 @@ body{
 }
 .conteudo{
     flex: 1 0 auto;
-    padding-top: 25 px;
+    padding-top: 25px;
 }
-
+.icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
 header {
     background-color: black;
     color: white;
 }
-span{
+ a{
     text-decoration: none;
     list-style: none;
     color: black;
@@ -56,13 +60,6 @@ span{
     list-style: none;
     color: black;
 }
-.cor {
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-}
-
-
 
 /* -=-=- | Inicio Conteudo | -=-=- */
 .conteudo{
@@ -192,11 +189,16 @@ input[type=number]::-webkit-outer-spin-button {
 /* -=-=- | Fim Conteudo | -=-=- */
 
 /* -=-=- | Inicio PHP | -=-=- */
-
+.container .row .selecionado{
+    background-color: #000000;
+    color: white;
+    height: 30px;
+}
 
 .icone{
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
 .img{
     height: 300px;

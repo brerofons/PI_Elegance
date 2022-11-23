@@ -1,3 +1,8 @@
+
+.aumento{
+    color: #ffffff;
+    font-size: 2.5rem;
+}
 html, body{
     height: 100%;
 }
@@ -11,7 +16,12 @@ body{
     flex: 1 0 auto;
     padding-top: 25 px;
 }
+.icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 
+}
 header {
     background-color: black;
     color: white;
