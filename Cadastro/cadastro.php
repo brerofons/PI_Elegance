@@ -158,55 +158,24 @@
                     </div>
                 </div>
                 <div class="pt-5"></div>
-                <div class="ite">
-                    <div class="row">
-                        <div class="col-3">
-                            <img class="img justify-content-center" src="../img/imagem_categ/Rectangle 9.png" alt="">
-                        </div>
-                        <div class="col-3 d-flex align-items-center">
-                            <h3 >Anabela Listrada</h3>
-                        </div>
-                        <div class="col-3 pt-4">
-                            <h4>Cores: Azul, Laranja</h4>
-                            <h4>Tamanhos: 34, 36, 38, 40</h4>
-                            <h4>Tipo: Anabela</h4>
-                        </div>
-                        <div class="col-3 d-flex justify-content-end">
-                            <div class="row pt-4">
-                                <div class="col-12"><button class="botalt" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">Alterar</button></div>
-                                <div class="col-12"><button  class="botexc" >Excluir</button></div>
-                            </div>
-                        </div>                      
-                    </div>
-                </div>
             </form>
-            <dialog id="cadp">
-                <form action="">
-                    <div class="row">
-                        <div class="col-11"><h2 class="d-flex justify-content-center">Adicionar Produto</h2></div>
-                        <div class="col-1"><button onclick="fecharDialog">X</button></div>
-                    </div>
-                    <div class="row pt-3">
-                        <div class="col-6">
-                            <h4>Coloque a imagem</h4>                            
-                        </div>
-                        <div class="col-6">
-                            <h4>Coloque a descrição do produto</h4>                           
-                        </div>
-                        <div class="col-6">
-                            <h4>Coloque as cores</h4>                            
-                        </div>
-                        <div class="col-6">
-                            <h4>Informe a classe do produto</h4>                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <Button>Cadastrar</Button>
-                        </div>
-                    </div>
-            </form>
-        </dialog>
+            <div class="">
+            <?php
+                $pdo = new PDO('mysql:host=localhost;dbname=ellegance','root','');
+                
+                $sql = $pdo->prepare("SELECT * FROM tbprod");
+                $sql->execute();
+                $info = $sql->fetchALL();
+                
+                foreach ($info as $key => $value) {
+                    echo 'Produto: '.$value['descricao'];
+                    echo '<br/>Cor: '.$value['cor'];
+                    echo '<br/>Tipo de Calçado : '.$value['tipo'];
+                    echo '<br/>Preço: R$'.$value['preco'];
+                    echo '<hr>';
+                }
+            ?>
+            </div>
         </div>
     </div>
     
